@@ -141,6 +141,22 @@ _request body:_
     }
   ]
 }
+
+or
+
+{
+  "order": {
+    "user_id": 1,
+    "date": "2023-09-20"
+  },
+  "products": [
+    {
+      "product_id": 1,
+      "quantity": 2
+    }
+  ]
+}
+
 ```
 
 _**PUT**_
@@ -166,6 +182,23 @@ _request body:_
     }
   ]
 }
+
+or
+
+{
+  "order": {
+      "id": 1,
+    "user_id": 1,
+    "date": "2023-09-20"
+  },
+  "products": [
+    {
+      "product_id": 1,
+      "quantity": 1
+    }
+  ]
+}
+
 ```
 
 _**GET**_

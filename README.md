@@ -5,7 +5,7 @@
 In the root directory you need to run the command:
 
 ### `docker-compose build`
-### `docker-compose start`
+### `docker-compose up`
 
 This will run the user-service, product-service & order-service on docker.
 
@@ -44,7 +44,7 @@ _request body:_
   }
 ```
 
-_**GET:**_
+**_GET:_**
 2. Get a single user by user id:
 [http://localhost:3001/users:id](http://localhost:3001/users/:id) .
 

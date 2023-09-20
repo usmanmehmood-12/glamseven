@@ -28,7 +28,8 @@ All of the tasks are implemented in the repo along with the CRUD operations.
 3) Task 3: Database Design
 4) Task 4: Kafka Integration
 
-**Note: You need to have**
+**Note:**
+Kafka is implemented in order-service and product-service. When an order is created or edited/updated.
 
 API Endpoints:
 

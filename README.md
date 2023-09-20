@@ -31,7 +31,7 @@ All of the tasks are implemented in the repo along with the CRUD operations.
 **Note:**
 Kafka is implemented in order-service and product-service. When an order is created or edited/updated.
 
-API Endpoints:
+### ***API Endpoints:***
 
 **_POST:_**
 1. Add a single user:

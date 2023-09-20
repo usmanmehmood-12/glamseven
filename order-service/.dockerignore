@@ -1,0 +1,14 @@
+# Node modules
+/node_modules
+npm-debug.log
+
+# Build artifacts
+/dist
+
+# Environment configuration
+.env
+
+# Development tools and configs
+.nest-cli.json
+.tsconfig.json
+.editorconfig

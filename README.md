@@ -29,13 +29,13 @@ All of the tasks are implemented in the repo along with the CRUD operations.
 4) Task 4: Kafka Integration
 
 **Note:**
-Kafka is implemented in order-service and product-service. When an order is created or edited/updated.
+Kafka is implemented in order-service and product-service. When an order is placed/created or edited/updated.
 
 ### ***API Endpoints:***
 
 **_POST:_**
 1. Add a single user:
-[http://localhost:3000](http://localhost:3001/users) .
+[http://localhost:3001](http://localhost:3001/users) .
 
 _request body:_
 ```bash
@@ -69,6 +69,8 @@ _request body:_
   {
     "name":"Malik",
   }
+
+    or
 
   {
     "email":"malik@gmail.com"
@@ -118,7 +120,7 @@ _request body:_
 
 _**DELETE**_
 10.  remove a product by id
-[http://localhost:3002/products/2](http://localhost:3002/products/2)
+[http://localhost:3002/products/:id](http://localhost:3002/products/:id)
 
 _**POST**_
 11.  Add/place an order:
